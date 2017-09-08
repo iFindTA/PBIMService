@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "081E7AC0F289B875E9FFDDE68BD7304DF9A1172F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0FE08F8717DB9BCD0D691B672435F9FAD91D19A3" : 9223372036854775807,
+    "EA988DFB2843004FB090782E7D8BE2EA34A6D225" : 9223372036854775807,
+    "081E7AC0F289B875E9FFDDE68BD7304DF9A1172F" : 9223372036854775807,
+    "0CD7CE569421DF878DDD8DEDD3604062405B94B2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "696723A5-F28A-4859-A38B-AEAE5569DCF0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0FE08F8717DB9BCD0D691B672435F9FAD91D19A3" : "flkimservice\/FLKIMServicePro\/FLKIMServicePro\/subGitSources\/FLKBaseClassesPro\/",
+    "EA988DFB2843004FB090782E7D8BE2EA34A6D225" : "flkimservice\/FLKIMServicePro\/FLKIMServicePro\/subGitSources\/FLKLoginPro\/",
+    "081E7AC0F289B875E9FFDDE68BD7304DF9A1172F" : "flkimservice\/",
+    "0CD7CE569421DF878DDD8DEDD3604062405B94B2" : "flkimservice\/FLKIMServicePro\/FLKIMServicePro\/subGitSources\/FLKNetServicePro\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FLKIMServicePro",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FLKIMServicePro\/FLKIMServicePro.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "192.168.10.56:hujiaju\/flkimservice.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "081E7AC0F289B875E9FFDDE68BD7304DF9A1172F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "192.168.10.56:hujiaju\/flknetservicepro.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0CD7CE569421DF878DDD8DEDD3604062405B94B2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "192.168.10.56:hujiaju\/flkbaseclasses.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0FE08F8717DB9BCD0D691B672435F9FAD91D19A3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "192.168.10.56:hujiaju\/flkloginmodule.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EA988DFB2843004FB090782E7D8BE2EA34A6D225"
+    }
+  ]
+}

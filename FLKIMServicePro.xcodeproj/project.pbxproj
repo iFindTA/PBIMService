@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187503544F0D0115E8ED5098 /* libPods-FLKIMServicePro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17278E4718CDACDF9D133CA1 /* libPods-FLKIMServicePro.a */; };
+		602780E61E5EEC44002DA90E /* FLKIM.cer in Resources */ = {isa = PBXBuildFile; fileRef = 602780E51E5EEC44002DA90E /* FLKIM.cer */; };
+		602780EA1E5EEC53002DA90E /* FLKIMService.m in Sources */ = {isa = PBXBuildFile; fileRef = 602780E91E5EEC53002DA90E /* FLKIMService.m */; };
+		602780EE1E5EED6D002DA90E /* FLKSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 602780ED1E5EED6D002DA90E /* FLKSession.m */; };
+		6072A2041E5FFF9400523690 /* FLKMsgBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 6072A2031E5FFF9400523690 /* FLKMsgBody.m */; };
+		6072A2071E5FFFB100523690 /* FLKMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6072A2061E5FFFB100523690 /* FLKMessage.m */; };
+		6072A20A1E5FFFFE00523690 /* FLKMsgBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6072A2091E5FFFFE00523690 /* FLKMsgBase.m */; };
+		FB28ADD81DDED91700507BC3 /* FLKSessionProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = FB28ADD71DDED91700507BC3 /* FLKSessionProfiler.m */; };
+		FB28ADDB1DDED93F00507BC3 /* FLKChatProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = FB28ADDA1DDED93F00507BC3 /* FLKChatProfiler.m */; };
+		FB2A87701DDC5CDA0012F7F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2A876F1DDC5CDA0012F7F2 /* main.m */; };
+		FB2A87731DDC5CDA0012F7F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2A87721DDC5CDA0012F7F2 /* AppDelegate.m */; };
+		FB2A87761DDC5CDA0012F7F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2A87751DDC5CDA0012F7F2 /* ViewController.m */; };
+		FB2A87791DDC5CDA0012F7F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2A87771DDC5CDA0012F7F2 /* Main.storyboard */; };
+		FB2A877B1DDC5CDA0012F7F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2A877A1DDC5CDA0012F7F2 /* Assets.xcassets */; };
+		FB2A877E1DDC5CDA0012F7F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2A877C1DDC5CDA0012F7F2 /* LaunchScreen.storyboard */; };
+		FB2A87891DDC5CDA0012F7F2 /* FLKIMServiceProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2A87881DDC5CDA0012F7F2 /* FLKIMServiceProTests.m */; };
+		FB2A87941DDC5CDB0012F7F2 /* FLKIMServiceProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2A87931DDC5CDB0012F7F2 /* FLKIMServiceProUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB2A87851DDC5CDA0012F7F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB2A87631DDC5CDA0012F7F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB2A876A1DDC5CDA0012F7F2;
+			remoteInfo = FLKIMServicePro;
+		};
+		FB2A87901DDC5CDB0012F7F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB2A87631DDC5CDA0012F7F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB2A876A1DDC5CDA0012F7F2;
+			remoteInfo = FLKIMServicePro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17278E4718CDACDF9D133CA1 /* libPods-FLKIMServicePro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLKIMServicePro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		602780E51E5EEC44002DA90E /* FLKIM.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = FLKIM.cer; sourceTree = "<group>"; };
+		602780E81E5EEC53002DA90E /* FLKIMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKIMService.h; sourceTree = "<group>"; };
+		602780E91E5EEC53002DA90E /* FLKIMService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKIMService.m; sourceTree = "<group>"; };
+		602780EC1E5EED6D002DA90E /* FLKSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKSession.h; sourceTree = "<group>"; };
+		602780ED1E5EED6D002DA90E /* FLKSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKSession.m; sourceTree = "<group>"; };
+		602780F01E5EED94002DA90E /* FLKIMTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKIMTypes.h; sourceTree = "<group>"; };
+		6072A2021E5FFF9400523690 /* FLKMsgBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKMsgBody.h; sourceTree = "<group>"; };
+		6072A2031E5FFF9400523690 /* FLKMsgBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKMsgBody.m; sourceTree = "<group>"; };
+		6072A2051E5FFFB100523690 /* FLKMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKMessage.h; sourceTree = "<group>"; };
+		6072A2061E5FFFB100523690 /* FLKMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKMessage.m; sourceTree = "<group>"; };
+		6072A2081E5FFFFE00523690 /* FLKMsgBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKMsgBase.h; sourceTree = "<group>"; };
+		6072A2091E5FFFFE00523690 /* FLKMsgBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKMsgBase.m; sourceTree = "<group>"; };
+		94152C8882B28E8DF2792313 /* Pods-FLKIMServicePro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLKIMServicePro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLKIMServicePro/Pods-FLKIMServicePro.debug.xcconfig"; sourceTree = "<group>"; };
+		E168E861C13C5685364FA79E /* Pods-FLKIMServicePro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLKIMServicePro.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLKIMServicePro/Pods-FLKIMServicePro.release.xcconfig"; sourceTree = "<group>"; };
+		FB28ADD61DDED91700507BC3 /* FLKSessionProfiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKSessionProfiler.h; sourceTree = "<group>"; };
+		FB28ADD71DDED91700507BC3 /* FLKSessionProfiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKSessionProfiler.m; sourceTree = "<group>"; };
+		FB28ADD91DDED93F00507BC3 /* FLKChatProfiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLKChatProfiler.h; sourceTree = "<group>"; };
+		FB28ADDA1DDED93F00507BC3 /* FLKChatProfiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLKChatProfiler.m; sourceTree = "<group>"; };
+		FB2A876B1DDC5CDA0012F7F2 /* FLKIMServicePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLKIMServicePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2A876F1DDC5CDA0012F7F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB2A87711DDC5CDA0012F7F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB2A87721DDC5CDA0012F7F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB2A87741DDC5CDA0012F7F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB2A87751DDC5CDA0012F7F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB2A87781DDC5CDA0012F7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB2A877A1DDC5CDA0012F7F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB2A877D1DDC5CDA0012F7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB2A877F1DDC5CDA0012F7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2A87841DDC5CDA0012F7F2 /* FLKIMServiceProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLKIMServiceProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2A87881DDC5CDA0012F7F2 /* FLKIMServiceProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLKIMServiceProTests.m; sourceTree = "<group>"; };
+		FB2A878A1DDC5CDA0012F7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2A878F1DDC5CDB0012F7F2 /* FLKIMServiceProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLKIMServiceProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2A87931DDC5CDB0012F7F2 /* FLKIMServiceProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLKIMServiceProUITests.m; sourceTree = "<group>"; };
+		FB2A87951DDC5CDB0012F7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB2A87681DDC5CDA0012F7F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187503544F0D0115E8ED5098 /* libPods-FLKIMServicePro.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2A87811DDC5CDA0012F7F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2A878C1DDC5CDB0012F7F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		602780E21E5EEBEA002DA90E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				602780E31E5EEBEA002DA90E /* Assets */,
+				602780E41E5EEBEA002DA90E /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		602780E31E5EEBEA002DA90E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				602780E51E5EEC44002DA90E /* FLKIM.cer */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		602780E41E5EEBEA002DA90E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				602780E71E5EEC53002DA90E /* Cores */,
+				602780E81E5EEC53002DA90E /* FLKIMService.h */,
+				602780E91E5EEC53002DA90E /* FLKIMService.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		602780E71E5EEC53002DA90E /* Cores */ = {
+			isa = PBXGroup;
+			children = (
+				6072A2011E5FFF6000523690 /* Messages */,
+				602780EF1E5EED7F002DA90E /* Headers */,
+				602780EB1E5EED1E002DA90E /* Models */,
+			);
+			path = Cores;
+			sourceTree = "<group>";
+		};
+		602780EB1E5EED1E002DA90E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				602780EC1E5EED6D002DA90E /* FLKSession.h */,
+				602780ED1E5EED6D002DA90E /* FLKSession.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		602780EF1E5EED7F002DA90E /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				602780F01E5EED94002DA90E /* FLKIMTypes.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		6072A2011E5FFF6000523690 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				6072A20B1E60035800523690 /* Bodies */,
+				6072A2081E5FFFFE00523690 /* FLKMsgBase.h */,
+				6072A2091E5FFFFE00523690 /* FLKMsgBase.m */,
+				6072A2021E5FFF9400523690 /* FLKMsgBody.h */,
+				6072A2031E5FFF9400523690 /* FLKMsgBody.m */,
+				6072A2051E5FFFB100523690 /* FLKMessage.h */,
+				6072A2061E5FFFB100523690 /* FLKMessage.m */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		6072A20B1E60035800523690 /* Bodies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bodies;
+			sourceTree = "<group>";
+		};
+		A270CB5B6A203B4E1187E375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17278E4718CDACDF9D133CA1 /* libPods-FLKIMServicePro.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFCF0DF0A39DAC7F6C1CFB82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94152C8882B28E8DF2792313 /* Pods-FLKIMServicePro.debug.xcconfig */,
+				E168E861C13C5685364FA79E /* Pods-FLKIMServicePro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB28ADD51DDED8E500507BC3 /* FLKIMComponents */ = {
+			isa = PBXGroup;
+			children = (
+				FB28ADD61DDED91700507BC3 /* FLKSessionProfiler.h */,
+				FB28ADD71DDED91700507BC3 /* FLKSessionProfiler.m */,
+				FB28ADD91DDED93F00507BC3 /* FLKChatProfiler.h */,
+				FB28ADDA1DDED93F00507BC3 /* FLKChatProfiler.m */,
+			);
+			path = FLKIMComponents;
+			sourceTree = "<group>";
+		};
+		FB2A87621DDC5CDA0012F7F2 = {
+			isa = PBXGroup;
+			children = (
+				FB2A876D1DDC5CDA0012F7F2 /* FLKIMServicePro */,
+				FB2A87871DDC5CDA0012F7F2 /* FLKIMServiceProTests */,
+				FB2A87921DDC5CDB0012F7F2 /* FLKIMServiceProUITests */,
+				FB2A876C1DDC5CDA0012F7F2 /* Products */,
+				CFCF0DF0A39DAC7F6C1CFB82 /* Pods */,
+				A270CB5B6A203B4E1187E375 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB2A876C1DDC5CDA0012F7F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB2A876B1DDC5CDA0012F7F2 /* FLKIMServicePro.app */,
+				FB2A87841DDC5CDA0012F7F2 /* FLKIMServiceProTests.xctest */,
+				FB2A878F1DDC5CDB0012F7F2 /* FLKIMServiceProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB2A876D1DDC5CDA0012F7F2 /* FLKIMServicePro */ = {
+			isa = PBXGroup;
+			children = (
+				602780E21E5EEBEA002DA90E /* Pod */,
+				FB28ADD51DDED8E500507BC3 /* FLKIMComponents */,
+				FB2A87711DDC5CDA0012F7F2 /* AppDelegate.h */,
+				FB2A87721DDC5CDA0012F7F2 /* AppDelegate.m */,
+				FB2A87741DDC5CDA0012F7F2 /* ViewController.h */,
+				FB2A87751DDC5CDA0012F7F2 /* ViewController.m */,
+				FB2A87771DDC5CDA0012F7F2 /* Main.storyboard */,
+				FB2A877A1DDC5CDA0012F7F2 /* Assets.xcassets */,
+				FB2A877C1DDC5CDA0012F7F2 /* LaunchScreen.storyboard */,
+				FB2A877F1DDC5CDA0012F7F2 /* Info.plist */,
+				FB2A876E1DDC5CDA0012F7F2 /* Supporting Files */,
+			);
+			path = FLKIMServicePro;
+			sourceTree = "<group>";
+		};
+		FB2A876E1DDC5CDA0012F7F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB2A876F1DDC5CDA0012F7F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB2A87871DDC5CDA0012F7F2 /* FLKIMServiceProTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB2A87881DDC5CDA0012F7F2 /* FLKIMServiceProTests.m */,
+				FB2A878A1DDC5CDA0012F7F2 /* Info.plist */,
+			);
+			path = FLKIMServiceProTests;
+			sourceTree = "<group>";
+		};
+		FB2A87921DDC5CDB0012F7F2 /* FLKIMServiceProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB2A87931DDC5CDB0012F7F2 /* FLKIMServiceProUITests.m */,
+				FB2A87951DDC5CDB0012F7F2 /* Info.plist */,
+			);
+			path = FLKIMServiceProUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB2A876A1DDC5CDA0012F7F2 /* FLKIMServicePro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2A87981DDC5CDB0012F7F2 /* Build configuration list for PBXNativeTarget "FLKIMServicePro" */;
+			buildPhases = (
+				BBD063673B70D457DBD08822 /* [CP] Check Pods Manifest.lock */,
+				FB2A87671DDC5CDA0012F7F2 /* Sources */,
+				FB2A87681DDC5CDA0012F7F2 /* Frameworks */,
+				FB2A87691DDC5CDA0012F7F2 /* Resources */,
+				25CD1B64D6FF2454FA573255 /* [CP] Embed Pods Frameworks */,
+				6B608E541759B2AC047CEDC1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLKIMServicePro;
+			productName = FLKIMServicePro;
+			productReference = FB2A876B1DDC5CDA0012F7F2 /* FLKIMServicePro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB2A87831DDC5CDA0012F7F2 /* FLKIMServiceProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2A879B1DDC5CDB0012F7F2 /* Build configuration list for PBXNativeTarget "FLKIMServiceProTests" */;
+			buildPhases = (
+				FB2A87801DDC5CDA0012F7F2 /* Sources */,
+				FB2A87811DDC5CDA0012F7F2 /* Frameworks */,
+				FB2A87821DDC5CDA0012F7F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB2A87861DDC5CDA0012F7F2 /* PBXTargetDependency */,
+			);
+			name = FLKIMServiceProTests;
+			productName = FLKIMServiceProTests;
+			productReference = FB2A87841DDC5CDA0012F7F2 /* FLKIMServiceProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB2A878E1DDC5CDB0012F7F2 /* FLKIMServiceProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2A879E1DDC5CDB0012F7F2 /* Build configuration list for PBXNativeTarget "FLKIMServiceProUITests" */;
+			buildPhases = (
+				FB2A878B1DDC5CDB0012F7F2 /* Sources */,
+				FB2A878C1DDC5CDB0012F7F2 /* Frameworks */,
+				FB2A878D1DDC5CDB0012F7F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB2A87911DDC5CDB0012F7F2 /* PBXTargetDependency */,
+			);
+			name = FLKIMServiceProUITests;
+			productName = FLKIMServiceProUITests;
+			productReference = FB2A878F1DDC5CDB0012F7F2 /* FLKIMServiceProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB2A87631DDC5CDA0012F7F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = nanhu;
+				TargetAttributes = {
+					FB2A876A1DDC5CDA0012F7F2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M8K6A7692X;
+						ProvisioningStyle = Automatic;
+					};
+					FB2A87831DDC5CDA0012F7F2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4WJ4F55RGP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB2A876A1DDC5CDA0012F7F2;
+					};
+					FB2A878E1DDC5CDB0012F7F2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4WJ4F55RGP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB2A876A1DDC5CDA0012F7F2;
+					};
+				};
+			};
+			buildConfigurationList = FB2A87661DDC5CDA0012F7F2 /* Build configuration list for PBXProject "FLKIMServicePro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB2A87621DDC5CDA0012F7F2;
+			productRefGroup = FB2A876C1DDC5CDA0012F7F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB2A876A1DDC5CDA0012F7F2 /* FLKIMServicePro */,
+				FB2A87831DDC5CDA0012F7F2 /* FLKIMServiceProTests */,
+				FB2A878E1DDC5CDB0012F7F2 /* FLKIMServiceProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB2A87691DDC5CDA0012F7F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602780E61E5EEC44002DA90E /* FLKIM.cer in Resources */,
+				FB2A877E1DDC5CDA0012F7F2 /* LaunchScreen.storyboard in Resources */,
+				FB2A877B1DDC5CDA0012F7F2 /* Assets.xcassets in Resources */,
+				FB2A87791DDC5CDA0012F7F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2A87821DDC5CDA0012F7F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2A878D1DDC5CDB0012F7F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25CD1B64D6FF2454FA573255 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLKIMServicePro/Pods-FLKIMServicePro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B608E541759B2AC047CEDC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLKIMServicePro/Pods-FLKIMServicePro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBD063673B70D457DBD08822 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB2A87671DDC5CDA0012F7F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2A87761DDC5CDA0012F7F2 /* ViewController.m in Sources */,
+				6072A2071E5FFFB100523690 /* FLKMessage.m in Sources */,
+				6072A20A1E5FFFFE00523690 /* FLKMsgBase.m in Sources */,
+				6072A2041E5FFF9400523690 /* FLKMsgBody.m in Sources */,
+				FB2A87731DDC5CDA0012F7F2 /* AppDelegate.m in Sources */,
+				FB2A87701DDC5CDA0012F7F2 /* main.m in Sources */,
+				602780EA1E5EEC53002DA90E /* FLKIMService.m in Sources */,
+				602780EE1E5EED6D002DA90E /* FLKSession.m in Sources */,
+				FB28ADD81DDED91700507BC3 /* FLKSessionProfiler.m in Sources */,
+				FB28ADDB1DDED93F00507BC3 /* FLKChatProfiler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2A87801DDC5CDA0012F7F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2A87891DDC5CDA0012F7F2 /* FLKIMServiceProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2A878B1DDC5CDB0012F7F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2A87941DDC5CDB0012F7F2 /* FLKIMServiceProUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB2A87861DDC5CDA0012F7F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB2A876A1DDC5CDA0012F7F2 /* FLKIMServicePro */;
+			targetProxy = FB2A87851DDC5CDA0012F7F2 /* PBXContainerItemProxy */;
+		};
+		FB2A87911DDC5CDB0012F7F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB2A876A1DDC5CDA0012F7F2 /* FLKIMServicePro */;
+			targetProxy = FB2A87901DDC5CDB0012F7F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB2A87771DDC5CDA0012F7F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2A87781DDC5CDA0012F7F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB2A877C1DDC5CDA0012F7F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2A877D1DDC5CDA0012F7F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB2A87961DDC5CDB0012F7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB2A87971DDC5CDB0012F7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB2A87991DDC5CDB0012F7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94152C8882B28E8DF2792313 /* Pods-FLKIMServicePro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M8K6A7692X;
+				INFOPLIST_FILE = FLKIMServicePro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.FLKIMServicePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB2A879A1DDC5CDB0012F7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E168E861C13C5685364FA79E /* Pods-FLKIMServicePro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M8K6A7692X;
+				INFOPLIST_FILE = FLKIMServicePro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.FLKIMServicePro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB2A879C1DDC5CDB0012F7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4WJ4F55RGP;
+				INFOPLIST_FILE = FLKIMServiceProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.FLKIMServiceProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLKIMServicePro.app/FLKIMServicePro";
+			};
+			name = Debug;
+		};
+		FB2A879D1DDC5CDB0012F7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4WJ4F55RGP;
+				INFOPLIST_FILE = FLKIMServiceProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.FLKIMServiceProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLKIMServicePro.app/FLKIMServicePro";
+			};
+			name = Release;
+		};
+		FB2A879F1DDC5CDB0012F7F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4WJ4F55RGP;
+				INFOPLIST_FILE = FLKIMServiceProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.FLKIMServiceProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FLKIMServicePro;
+			};
+			name = Debug;
+		};
+		FB2A87A01DDC5CDB0012F7F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4WJ4F55RGP;
+				INFOPLIST_FILE = FLKIMServiceProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.FLKIMServiceProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FLKIMServicePro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB2A87661DDC5CDA0012F7F2 /* Build configuration list for PBXProject "FLKIMServicePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2A87961DDC5CDB0012F7F2 /* Debug */,
+				FB2A87971DDC5CDB0012F7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2A87981DDC5CDB0012F7F2 /* Build configuration list for PBXNativeTarget "FLKIMServicePro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2A87991DDC5CDB0012F7F2 /* Debug */,
+				FB2A879A1DDC5CDB0012F7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2A879B1DDC5CDB0012F7F2 /* Build configuration list for PBXNativeTarget "FLKIMServiceProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2A879C1DDC5CDB0012F7F2 /* Debug */,
+				FB2A879D1DDC5CDB0012F7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2A879E1DDC5CDB0012F7F2 /* Build configuration list for PBXNativeTarget "FLKIMServiceProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2A879F1DDC5CDB0012F7F2 /* Debug */,
+				FB2A87A01DDC5CDB0012F7F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB2A87631DDC5CDA0012F7F2 /* Project object */;
+}
